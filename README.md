@@ -157,8 +157,6 @@ OpenWrt 的 IPv6 设置方案见本项目的 Wiki：[OpenWrt-IPv6-设置方案](
 
 ### 订阅转换服务  
 
-本项目提供订阅转换后端服务，便于网络环境奇葩的用户使用。  
-
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fapi.asailor.org%2Fversion&up_message=%E5%9C%A8%E7%BA%BF&down_message=%E7%A6%BB%E7%BA%BF&style=for-the-badge&label=%E5%90%8E%E7%AB%AF%E6%9C%8D%E5%8A%A1%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81)
 
 如果 OpenClash 自带的订阅转换服务全部不可用，你可以使用本项目提供的订阅转换服务地址：  
@@ -168,6 +166,8 @@ https://api.asailor.org/sub
 ```
 
 填写进`配置订阅信息 > 订阅转换服务地址`中即可生效。 
+
+**本项目后端已支持 Smart 内核的全部参数。**
 
 ### 不能上网？分流不正常？某些网站打不开？OpenClash 不能启动？
 
@@ -220,6 +220,8 @@ https://api.asailor.org/sub
 
 本项目订阅模板的节点地区分类即参考了该机场的节点地区进行分类。  
 
+**仅作推荐，维护者和推荐机场无任何关系，不对机场服务质量进行任何担保。**  
+
 PS：该机场 Hong Kong 11-15 节点以及其他部分节点暂不支持 IPv6 出站，如果需要使用 IPv6 出站功能，建议在 订阅设置 > 排除节点中设置排除如下关键词，以避免使用非 IPv6 出站节点：  
 Traffic、GB、Expire、11、12、13、14、15  
 
@@ -228,6 +230,8 @@ Traffic、GB、Expire、11、12、13、14、15
 Traffic、GB、Expire  
 
 不屏蔽不影响使用，只是会让节点列表看着更整洁一些  
+
+***
 
 ## 贡献者  
 
@@ -285,6 +289,10 @@ Traffic、GB、Expire
 
 - [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)
 
+### 订阅转换后端
+
+- [Aethersailor/subconverter](https://github.com/Aethersailor/subconverter)
+
 ### 其他
 
 - [immortalwrt/user-FAQ](https://github.com/immortalwrt/user-FAQ/)
@@ -292,6 +300,8 @@ Traffic、GB、Expire
 - [oooldtoy/SSTAP_ip_crawl_tool](https://github.com/oooldtoy/SSTAP_ip_crawl_tool)
 
 - [ChatGPT/OpenAI](https://chatgpt.com/)
+
+- [Cursor/Anysphere](https://cursor.com/)
 
 ***
 
@@ -322,6 +332,8 @@ Traffic、GB、Expire
 ![:访问数](https://count.getloli.com/@:Custom_OpenClash_Rules?theme=sketch-1)  
 
 2025年2月开始统计  
+
+***
 
 ## 广告  
 
